@@ -17,11 +17,6 @@ System.out.println(a.getHealth());
 
 
 
-
-
-
-
-
 }
 
 
