@@ -7,7 +7,7 @@ private static int defaulthealth=200;
 public Samurai()
 {
 
-this.health=defaulthealth;
+this.health()=defaulthealth;
 Samurai.SamuraiNum+=1;
 
 

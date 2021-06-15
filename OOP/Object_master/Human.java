@@ -1,9 +1,9 @@
 public class Human {
 
-protected int strength;
-protected int stealth;
-protected int intelligence;
-protected int health;
+private int strength;
+private int stealth;
+private int intelligence;
+private int health;
 
 
 int defaultstrength=3;
