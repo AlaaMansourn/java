@@ -63,7 +63,7 @@ public String time(Model model){
 	
 	 model.addAttribute("date",mm );
 	 
-	return "date.jsp";
+	return "time.jsp";
 	
 	
 	
