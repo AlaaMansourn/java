@@ -46,11 +46,14 @@ public class BookService {
 	    	
 	    	
 	    	
+	    		
+	    }
+	    
+	    public Void deleteBook(Long id) {
 	    	
+	    	book b = bookrepository.findById(id);
 	    	
-	    	
-	    	
-	    	
+	    	 bookRepository.delete(b);
 	    }
 
 }

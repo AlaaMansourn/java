@@ -14,6 +14,8 @@ public interface BookRepository extends CrudRepository<Book,Long>{
 	
 	List<Book> findAll();
 	
+	
+	void deleteById(Long id);
     // this method finds books with descriptions containing the search string
     List<Book> findByDescriptionContaining(String search);
     // this method counts how many titles contain a certain string
